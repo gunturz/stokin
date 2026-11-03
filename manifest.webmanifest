@@ -1,0 +1,47 @@
+{
+  "name": "StokIn – Manajemen Stok & Barang",
+  "short_name": "StokIn",
+  "description": "Aplikasi manajemen stok dan kategori barang dengan peringatan batas minimum, laporan persediaan, serta kemampuan bekerja offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "window-controls-overlay"],
+  "orientation": "portrait-primary",
+  "background_color": "#f6f8f7",
+  "theme_color": "#0f7a55",
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
+

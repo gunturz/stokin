@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#129267" />
+      <stop offset="100%" stop-color="#09543a" />
+    </linearGradient>
+    <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#d9f3e7" />
+    </linearGradient>
+    <linearGradient id="boxGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c1e7d6" />
+      <stop offset="100%" stop-color="#a4dbca" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Inventory Package Icon (StokIn) -->
+  <g filter="url(#shadow)" transform="translate(0, -6)">
+    <!-- Top Face -->
+    <polygon points="256,128 368,192 256,256 144,192" fill="url(#boxGrad1)" />
+    <!-- Left Face -->
+    <polygon points="144,192 256,256 256,384 144,320" fill="url(#boxGrad2)" />
+    <!-- Right Face -->
+    <polygon points="256,256 368,192 368,320 256,384" fill="#8ed0bc" />
+
+    <!-- Box Tape / Seam -->
+    <polygon points="248,133 264,124 264,252 248,261" fill="#0f7a55" opacity="0.85" />
+    <polygon points="248,261 264,252 264,380 248,389" fill="#09543a" opacity="0.85" />
+
+    <!-- Upward arrow / in symbol for "StokIn" -->
+    <g transform="translate(256, 270) scale(0.9) translate(-256, -270)">
+      <circle cx="256" cy="270" r="42" fill="#ffffff" />
+      <path d="M256 242 L236 272 L248 272 L248 296 L264 296 L264 272 L276 272 Z" fill="#0f7a55" />
+    </g>
+  </g>
+</svg>
+
